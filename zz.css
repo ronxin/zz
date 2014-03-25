@@ -1,0 +1,13 @@
+text {
+  font: 12px sans-serif;
+  pointer-events: none;
+}
+
+.center {
+  text-align: center;
+}
+
+table {
+	margin: auto;
+	margin-bottom: 20px; 
+}
