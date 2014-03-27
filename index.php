@@ -54,5 +54,5 @@ echo "</h2>";
 <script src="jquery-1.10.2.js"></script>
 <script src="jquery-ui-1.10.4.custom.min.js"></script>
 <script src="zz.js"></script>
-
+<center>&copy; 2014&nbsp;Xin Rong, <a href="mailto:ronxin@umich.edu">ronxin@umich.edu</a></center>
 </html>
