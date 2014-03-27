@@ -13,7 +13,10 @@
 		<form id='query_form' action="index.php" method="get">
 			<span>
 				<label for="query">Ask me: </label> 
-				<input type="text" name="q" id="query" size="50" value="What is "></input>
+				<input type="text" name="q" id="query" size="50" value="<?php 
+				  $query = isset($_GET['q']) ? $_GET['q'] : "What is";
+				  echo $query;				
+				?>"></input>
 			</span> 
 			<input type="submit" value="Submit"/>
 		</form>
@@ -40,10 +43,10 @@ if (isset($_GET['q'])) {
       if (strlen($desc) > 0) {
         $answer = $entity . ' is ' . $desc . '.';
         $answer = ucfirst($answer);
-        echo $answer;
       }
     }
   }
+  echo $answer;
 }
 echo "</h2>";
 ?>
